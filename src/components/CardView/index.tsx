@@ -20,6 +20,13 @@ export default function CardView() {
         </View>
     )
 
+    const renderCarImage = () => (
+        <Image 
+            style={styles.image}
+            source={{uri: }}
+        />
+    )
+
     return (
         <View style={styles.imageContainer}>
             {renderLogoBox()}
