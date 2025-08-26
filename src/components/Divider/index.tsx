@@ -1,9 +1,10 @@
 import { View } from "react-native";
+import { styles } from "./styles";
 
 export default function Divider() {
     return (
-        <View>
-            <View></View>
+        <View style={styles.dividerContainer}>
+            <View style={styles.divider}></View>
         </View>
     )
 }
