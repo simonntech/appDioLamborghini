@@ -11,12 +11,20 @@ export default function CardView() {
         <View style={styles.logoContainer}>
             <Image style={styles.imgLogo} source={Logo} />
         </View>
+    );
+
+    const renderCardDetails = () => (
+        <View style={{ alignItems: 'center' }}>
+            <Text style={styles.carBrand}>Lamborghini</Text>
+            <Text style={styles.carName}>Model</Text>
+        </View>
     )
 
     return (
         <View style={styles.imageContainer}>
             {renderLogoBox()}
             <Divider />
+            {renderCardDetails()}
         </View>
     )
 }
