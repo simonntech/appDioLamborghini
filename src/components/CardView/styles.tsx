@@ -6,7 +6,8 @@ export const styles = StyleSheet.create({
         width: '100%',
         height: '100%',
         overflow: 'hidden',
-        borderRadius: 8
+        borderRadius: 8,
+        gap: 10
     },
     logoContainer: {
         alignItems: 'center',
@@ -36,6 +37,7 @@ export const styles = StyleSheet.create({
         flex: 1,
         marginBottom: 10,
         width: '100%',
-        height: '100%'
+        height: '100%',
+        resizeMode: 'contain'
     }
 })
