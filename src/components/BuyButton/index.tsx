@@ -4,8 +4,8 @@ import { styles } from './styles';
 
 export default function BuyButton() {
     return (
-        <View style={styles.container}>
-            <TouchableOpacity style={styles.button}>
+        <View >
+            <TouchableOpacity style={[styles.container,styles.button]}>
                 <AntDesign
                     name='shoppingcart'
                     size={20}
