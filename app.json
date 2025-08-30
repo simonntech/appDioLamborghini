@@ -20,10 +20,16 @@
         "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#000"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.brusife.appDioLamborghini"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4621c180-5f50-4f1c-ae3d-8b447f5bda0e"
+      }
     }
   }
 }
